@@ -1,0 +1,25 @@
+{
+  "name": "your-library-name",
+  "version": "1.0.0",
+  "description": "A TypeScript library for JavaScript users",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["typescript", "library"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@types/bun": "latest",
+    "@types/jest": "^29.5.14",
+    "install": "^0.13.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
