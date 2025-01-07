@@ -1,4 +1,4 @@
-import { NetworkType } from "./common/networks";
+import type { NetworkType } from "./common/networks";
 import { getAddressActivityFromGraph } from "./queries/getAddressActivity";
 import { getNetworkMetadata } from "./queries/getSubgraphMetaData";
 import { getUserOpDetails } from "./queries/getUserOp";

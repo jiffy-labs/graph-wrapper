@@ -1,5 +1,5 @@
-import { NetworkType } from "../common/networks";
-import { AddressActivity } from "../common/types";
+import type { NetworkType } from "../common/networks";
+import type { AddressActivity } from "../common/types";
 import { formatUserOpsToMatchJiffyscanOutput } from "../utils.ts/decoder";
 import { getDataFromGraph } from "../utils.ts/graphRequest";
 

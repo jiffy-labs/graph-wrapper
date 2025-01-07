@@ -1,4 +1,5 @@
-import { getGraphUrl, NetworkType } from "../common/networks";
+import { getGraphUrl } from "../common/networks";
+import type { NetworkType } from "../common/networks";
 
 let HEADERS = {
     "Content-Type": "application/json",

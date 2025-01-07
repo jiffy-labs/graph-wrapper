@@ -1,4 +1,4 @@
-import { JiffyscanUserOp } from "../common/types";
+import type { JiffyscanUserOp } from "../common/types";
 
 export const formatUserOpsToMatchJiffyscanOutput = (userOps: JiffyscanUserOp[]) => {
     if (userOps.length == 0) {

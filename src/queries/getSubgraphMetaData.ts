@@ -1,4 +1,4 @@
-import { NetworkType } from "../common/networks";
+import type { NetworkType } from "../common/networks";
 import { getDataFromGraph } from "../utils.ts/graphRequest";
 
 
