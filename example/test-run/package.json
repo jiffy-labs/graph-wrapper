@@ -9,6 +9,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "jiffyscan-graph-wrapper": "1.0.3"
+    "jiffyscan-graph-wrapper": "1.0.4"
   }
 }

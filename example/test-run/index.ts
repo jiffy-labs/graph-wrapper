@@ -1,7 +1,7 @@
 import { JiffyscanGraphClient } from "jiffyscan-graph-wrapper";
 
 // Initialize the client with your Graph API key
-const graphApiKey = process.env.GRAPH_API_KEY;
+const graphApiKey = process.env.GRAPH_API_KEY as string;
 const client = new JiffyscanGraphClient(graphApiKey);
 
 // Fetch network status
