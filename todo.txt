@@ -1,2 +1,4 @@
 1. Get Address Aggregate Data 
 2. get Address Balances 
+3. Add linter 
+4. Add github actions to publish to npm after PR 
