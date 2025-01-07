@@ -1,11 +1,8 @@
 export const NETWORK_GRAPH_MAP = {
     mainnet: 'https://gateway-arbitrum.network.thegraph.com/api/{API_KEY}/subgraphs/id/FrwziBsTDBogUj57ts4U1kx5X5hDMkpX5STpUXphomyV',
-
     matic: 'https://gateway-arbitrum.network.thegraph.com/api/{API_KEY}/subgraphs/id/Ga4gCEvJGuu7Y2oXCbpa3R9KMNBXWYLg1kJPxnfeu5fb',
-
     optimism: 'https://gateway-arbitrum.network.thegraph.com/api/{API_KEY}/subgraphs/id/HxvH1S81KFam6J7etqtxngjLPhZMS5QcHKwPa7LVz1no',
     "optimism-sepolia": "https://api.studio.thegraph.com/query/45842/opt-sep-jiffy-scan/version/latest",
-
     "arbitrum-one": 'https://gateway-arbitrum.network.thegraph.com/api/{API_KEY}/subgraphs/id/4YM6vwSP4Mx38qXsVh6TFyrWrKgm7zvX4mFGPS2L6afk',
     avalanche: 'https://gateway-arbitrum.network.thegraph.com/api/{API_KEY}/subgraphs/id/ALNXErAtAfjQU8TP39nitk6ej9ZtrDYmnXRYRdWiFuGZ',
     "avalanche-fuji": "https://api.studio.thegraph.com/query/45842/avalanche-fuji-jiffy-scan/version/latest/",
@@ -16,9 +13,6 @@ export const NETWORK_GRAPH_MAP = {
     "arbitrum-sepolia":
         "https://gateway.thegraph.com/api/1afd1a1d48e26c2c6fed3465adb9b876/subgraphs/id/8bh2bxiNysQJtqwp1HbEMKPpKDYe5JYGnykGTpmprDWZ",
     "polygon-amoy": "https://api.studio.thegraph.com/query/24129/polygon-amoy-jiffy-scan/version/latest",
-    "cyber-mainnet": "http://18.190.207.45:8000/subgraphs/name/cyber-l2-jiffy-scan",
-    "open-campus-test": "http://3.133.11.143:8000/subgraphs/name/lazycoder1/open-campus-test-jiffy-scan",
-    odyssey: "http://3.133.11.143:8000/subgraphs/name/lazycoder1/odyssey-jiffy-scan",
 };
 
 export const CHAINID_NETWORK_MAP = {
